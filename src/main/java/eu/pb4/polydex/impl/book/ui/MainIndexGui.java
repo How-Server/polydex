@@ -37,6 +37,7 @@ public class MainIndexGui extends ExtendedGui {
             this.state.page = pageItem;
         }
         this.mainLayer = new ItemLayer(6, this.state);
+        this.state.type = NamespaceLayer.Type.NAMESPACES;
         this.indexLayer = new NamespaceLayer(4, this.state);
 
 
